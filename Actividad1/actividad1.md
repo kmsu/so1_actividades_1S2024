@@ -17,6 +17,10 @@ modularidad y flexibilidad.
 monolíticos y microkernels para lograr un
 equilibrio entre rendimiento y modularidad.
 
+## User vs Kernel Mode
+
 | Left-aligned | Center-aligned |
 | :---         |     :---:      |
 | mi texto a la izquierda   | Mi texto centrado     |
+
+## Interruptions vs traps
