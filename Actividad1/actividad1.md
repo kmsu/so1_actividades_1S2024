@@ -30,7 +30,7 @@ aplicaciones existentes.
 
 |              |   Ventajas   |  Desventajas   |
 |    :---:     |     :---:    |     :---:      |
-| Monolítico   |  * Rendimiento * Simplicidad |                |
+| Monolítico   |  Rendimiento \n Simplicidad |                |
 | Microkernel  |              |                |
 | Híbrido      |              |                |
 | Exokernel    |              |                |
