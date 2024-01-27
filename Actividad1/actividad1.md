@@ -28,8 +28,12 @@ aplicaciones existentes.
 
 ## User vs Kernel Mode
 
-| Left-aligned | Center-aligned |
-| :---         |     :---:      |
-| mi texto a la izquierda   | Mi texto centrado     |
+|              |   Ventajas   |  Desventajas   |
+|    :---:     |     :---:    |     :---:      |
+| Monolítico   |  Rendimiento
+                  simplicidad |                |
+| Microkernel  |              |                |
+| Híbrido      |              |                |
+| Exokernel    |              |                |
 
 ## Interruptions vs traps
