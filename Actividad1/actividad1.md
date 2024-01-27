@@ -17,7 +17,7 @@ modularidad y flexibilidad.
 monolíticos y microkernels para lograr un
 equilibrio entre rendimiento y modularidad.
 
-*Exokernel: Se encarga únicamente de asignar los 
+* Exokernel: Se encarga únicamente de asignar los 
 recursos del hardware a los diferentes programas 
 en ejecución. Los programas tienen un control completo 
 sobre los recursos asignados, lo que les permite 
