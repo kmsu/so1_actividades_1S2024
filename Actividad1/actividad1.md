@@ -1,6 +1,6 @@
-#ACTIVIDAD 1
+# ACTIVIDAD 1
 
-#Tipos de kernel y sus diferencias
+## Tipos de kernel y sus diferencias
 
 Tipos de kernel:
 * Monolítico: El kernel completo opera como una
