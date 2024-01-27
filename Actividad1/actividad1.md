@@ -1,4 +1,4 @@
-                      # ACTIVIDAD 1
+ # ACTIVIDAD 1
 
 ## Tipos de kernel y sus diferencias
 
