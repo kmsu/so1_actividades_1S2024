@@ -1,3 +1,8 @@
+|              |              |                |
+|    :---      |     :---:    |     ---:       |
+|Nombre: Kevin Martin Samayoa Urizar|              | Curso: Sistemas Operativos 1 |
+|Carnet: 200915348| Actividad 1             | Fecha: 27/01/2024 |
+
 # ACTIVIDAD 1
 
 ## Tipos de kernel y sus diferencias
