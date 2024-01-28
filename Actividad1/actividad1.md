@@ -30,7 +30,7 @@ aplicaciones existentes.
 
 |              |   Ventajas   |  Desventajas   |
 |    :---:     |     :---:    |     :---:      |
-| Monolítico   | Rendimiento <br /> Simplicidad | Menor modularidad <br /> Menos robusto (un fallo puede afectar todo el sistema) |
+| Monolítico   | * Rendimiento <br /> * Simplicidad | Menor modularidad <br /> Menos robusto (un fallo puede afectar todo el sistema) |
 | Microkernel  | Mayor modularidad <br /> Mejor mantenibilidad | Mantenimiento ligeramente menor <br /> Complejidad |
 | Híbrido      | Flexibilidad <br /> Buena escalabilidad | Complejidad |
 | Exokernel    | Mayor control <br /> Rendimiento | Mayor complejidad para aplicaciones <br /> Menor portabilidad (por la gestion directa de recursos puede ser menos portable entre diferentes hardware) |
