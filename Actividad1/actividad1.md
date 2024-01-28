@@ -64,7 +64,7 @@ DIFERENCIAS
 | Acceso | Solo se permite que la funcionalidad esencial funcione en este modo. | Los programas de usuario pueden acceder y ejecutarse en este modo para un sistema determinado. |
 | Funcionalidad | puede referirse a cualquier bloque de memoria en el sistema y también puede dirigir la CPU para la ejecución de una instrucción, lo que lo convierte en un modo muy potente y significativo. |  es un modo de visualización estándar y típico, lo que implica que la información no puede ejecutarse por sí sola ni hacer referencia a ningún bloque de memoria; necesita una interfaz de protocolo de aplicación (API) para lograr estas cosas. |
 
-![Diagrama de modo usuario vs modo kernel] (https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad1/Imagenes/actividad1_Modes_user_kernel.jpg)
+![Diagrama de modo usuario vs modo kernel](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad1/Imagenes/actividad1_Modes_user_kernel.jpg)
 
 ## Interruptions vs traps
 Son mecanismos utilizados en sistemas operativos para manejar eventos especiales que requieren la atención del sistema operativo o del kernel. 
