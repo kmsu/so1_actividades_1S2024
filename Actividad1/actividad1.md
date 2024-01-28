@@ -53,25 +53,15 @@ DIFERENCIAS
 |  CRITERIOS   |   Modo Kernel   |  Modo usuario   |
 |    :---:     |     :---:       |     :---:       |
 |  Acceso a los recursos   | El programa tiene acceso directo y sin restricciones a los recursos del sistema. | El programa de aplicación no tiene acceso directo a los recursos del sistema. Para acceder a los recursos, se debe realizar una llamada al sistema. |
-
 | Interrupciones | todo el sistema operativo puede dejar de funcionar si se produce una interrupción | un solo proceso falla si se produce una interrupción. |
-
 |  Modos   | También se conoce como modo maestro, modo privilegiado o modo sistema. | También se conoce como modo sin privilegios, modo restringido o modo esclavo. |
-
 | Espacio de direcciones virtuales |  Todos los procesos comparten un único espacio de direcciones virtuales. | Todos los procesos obtienen un espacio de direcciones virtuales independiente. |
-
 | Nivel de privilegio | Las aplicaciones tienen más privilegios en comparación con el modo de usuario. | Las aplicaciones tienen menos privilegios. |
-
 | Restricciones | No hay restricciones.   | Necesita acceder a los programas del kernel, ya que no puede acceder directamente a ellos. |
-
 | Valor de bit de modo | El bit mode de kernel-mode es 0. | El bit de modo del modo de usuario es 1. |
-
 | Referencias de memoria | Es capaz de hacer referencia a ambas áreas de memoria. | Solo puede hacer referencias a la memoria asignada para el modo de usuario. |
-
 | Bloqueo del sistema | Es grave y complica las cosas. |  se puede recuperar simplemente reanudando la sesión. |
-
 | Acceso | Solo se permite que la funcionalidad esencial funcione en este modo. | Los programas de usuario pueden acceder y ejecutarse en este modo para un sistema determinado. |
-
 | Funcionalidad | puede referirse a cualquier bloque de memoria en el sistema y también puede dirigir la CPU para la ejecución de una instrucción, lo que lo convierte en un modo muy potente y significativo. |  es un modo de visualización estándar y típico, lo que implica que la información no puede ejecutarse por sí sola ni hacer referencia a ningún bloque de memoria; necesita una interfaz de protocolo de aplicación (API) para lograr estas cosas. |
 
 ## Interruptions vs traps
