@@ -1,7 +1,7 @@
-|              |              |                |
-|    :---      |     :---:    |     ---:       |
-| Nombre: Kevin Martin Samayoa Urizar |              | Curso: Sistemas Operativos 1 |
-| Carnet: 200915348                   |              | Fecha: 27/01/2024            |
+|              |                |
+|    :---      |      ---:      |
+| Nombre: Kevin Martin Samayoa Urizar | Curso: Sistemas Operativos 1 |
+| Carnet: 200915348                   | Fecha: 27/01/2024            |
 
 # ACTIVIDAD 1
 
