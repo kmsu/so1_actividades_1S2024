@@ -52,7 +52,6 @@ DIFERENCIAS
 
 |  CRITERIOS   |   Modo Kernel   |  Modo usuario   |
 |    :---:     |     :---:       |     :---:       |
-
 |  Acceso a los recursos   | El programa tiene acceso directo y sin restricciones a los recursos del sistema. | El programa de aplicación no tiene acceso directo a los recursos del sistema. Para acceder a los recursos, se debe realizar una llamada al sistema. |
 
 | Interrupciones | todo el sistema operativo puede dejar de funcionar si se produce una interrupción | un solo proceso falla si se produce una interrupción. |
