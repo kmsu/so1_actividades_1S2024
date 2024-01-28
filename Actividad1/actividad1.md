@@ -65,3 +65,21 @@ DIFERENCIAS
 | Funcionalidad | puede referirse a cualquier bloque de memoria en el sistema y también puede dirigir la CPU para la ejecución de una instrucción, lo que lo convierte en un modo muy potente y significativo. |  es un modo de visualización estándar y típico, lo que implica que la información no puede ejecutarse por sí sola ni hacer referencia a ningún bloque de memoria; necesita una interfaz de protocolo de aplicación (API) para lograr estas cosas. |
 
 ## Interruptions vs traps
+Son mecanismos utilizados en sistemas operativos para manejar eventos especiales que requieren la atención del sistema operativo o del kernel. 
+
+Interrupt (interrupciones): Es una señal de hardware que exige atención instantánea por parte de un sistema operativo. Es una suspensión temporal de la ejecución de un proceso, para pasar a ejecutar una subrutina de servicio de interrupción que suele pertenecer al sistema operativo o al BIOS. Son generalmente originadas por eventos externos al procesador, como hardware periferico. Pueden tener prioridades, y el procesador interrumpe la ejecución normal para atender la interrupción de mayor prioridad. El kernel o el gestor de interrupciones, toma el control, guarda el estado actual y ejecuta un manejador de interrupciones específico para gestionar la interrupción. 
+
+Traps (trampas): También conocida como excepción de software, es una interrupción generada por el software, causada por un error o por un requerimiento de usuario. Son generadas por el propio programa en ejecución, como resultado de la ejecución de una instrucción específica. A diferencia de las interrupciones, estas no tienen prioridades, son eventos controlados y generados por el programa en ejecución. No hay cambio abrupto en el flujo de ejecución. El programa solicita un servicio especifico del kernel y espera su respuesta.
+
+DIFERENCIAS
+
+|  TRAP   |   INTERRUPT   |
+|    :---:     |     :---:       |
+| Es una señal emitida por un programa de usuario | Es una señal emitida por un dispositivo de hardware |
+| Proceso Sincronico | Proceso Asincronico |
+| Solo puede ocurrir desde un software | Puede ocurrir desde un software o un hardware |
+| Solo es generado por una instrucción de programas de usuario | Generado por una instruccion de un Sistema Operativo o de un programa de usuario |
+| Son subconjuntos de interrupciones | Son un superconjunto de las traps |
+| Ejecuta una funcionalidad específica en el sistema operativo y cede el control al gestor de trampas (traps) | Forza a la CPU a activar una rutina específica de manejo de interrupciones |
+
+
