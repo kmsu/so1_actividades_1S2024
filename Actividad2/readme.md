@@ -44,7 +44,8 @@ Para finalizar, se realiza la concatenación de la cadena anterior en el archivo
     echo "Hola $github_user, User ID: $github_id, Cuenta fue creada el: $github_create_at." \
     >> /tmp/$(date +"%d-%m-%Y")/saludos.log
 
-Salida del script en bash
+Salida del script en bash 
+
 ![Salida del script con bash](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-15-27.png)
 
 ## Cronjob
