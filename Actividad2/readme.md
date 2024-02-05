@@ -6,7 +6,9 @@
 ## Descripción del script
 
 Primero se define el encabezado llamado Shebang (Para definir que será un script de bash)
+  
   #! /usr/bin/env bash
 
 Establecemos la acción detener el script, si ocurre un error
+  
   set -o errexit
