@@ -50,7 +50,7 @@ Salida del script en bash
 
 ## Cron Job
 ### Pasos para instalar Cron Job en Ubuntu 22.04.3 LTS 
-### Para todo lo descrito a continuación se utiliza una terminal del SO.
+#### Para todo lo descrito a continuación se utiliza una terminal del SO.
 
 Primero paso: Se debe preparar el sistema operativo
 
