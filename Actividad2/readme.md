@@ -13,4 +13,4 @@ Establecemos la acción detener el script, si ocurre un error
   
     set -o errexit
 
-  Lee el id de la cuenta github. En este caso *kmsu*
+  Lee el id de la cuenta github. En este caso **kmsu**
