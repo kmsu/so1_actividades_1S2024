@@ -72,9 +72,7 @@ Se debe establecer Cron Job como una función en segundo plano
 
 Tercer paso: Editar un archivo Cron Job
 
-Se abre un editor de de Cron Job utilizando el comando:
-
-    crontab -e
+Se abre un editor de de Cron Job utilizando el comando `crontab -e`
 
 Se debe posicionar al final del archivo Cron Job (usando las flechas del teclado) y escribir 
 
