@@ -1,0 +1,11 @@
+[Unit]
+Description=Actividad No 3 del curso sistemas operativos 1S2024
+
+[Service]
+ExecStart=/home/kevin/saludo.sh            
+Restart=always
+IgnoreSIGPIPE=no
+
+[Install]
+Alias=saludo.service
+
