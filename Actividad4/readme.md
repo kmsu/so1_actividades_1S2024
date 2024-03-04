@@ -14,6 +14,8 @@
 <a name="funcionamiento"></a>
 ## Funcionamiento 
 
+Se utiliza un pipe como canal para enviar y recibir mensajes en procesos paralelos, para ello se realiza lo siguiente:
+
 1. se crea un script por participante
 2. En cada script se realiza
     - Se crea un nombre de pipe de la forma `PIPE=/tmp/chat_pipe`
@@ -41,6 +43,12 @@
             echo "Participante 2: $message" > $PIPE
         done
     ```
+    `read` es para leer los mensajes del otro participante
+
+    `message` contiene el mensaje
+
+    `echo` muestra el mensaje recibido a cada participante
+
 3. Por ultimo, se ejecuta cada script en una terminal distinta 
 
 ---
