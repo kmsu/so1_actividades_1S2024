@@ -46,7 +46,7 @@ Para finalizar, se realiza la concatenación de la cadena anterior en el archivo
 
 Salida del script en bash 
 
-![Salida del script con bash](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-15-27.png)
+![Salida del script con bash](https://github.com/kmsu/so1_actividades_1S2024/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-15-27.png)
 
 ## Cron Job
 ### Pasos para instalar Cron Job en Ubuntu 22.04.3 LTS 
@@ -80,7 +80,7 @@ Se debe posicionar al final del archivo Cron Job (usando las flechas del teclado
 
 El patrón `5 * * * *` Especifica que el script se ejecute cada 5 minutos. 
 
-![Editando Cron Job](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-53-52.png)
+![Editando Cron Job](https://github.com/kmsu/so1_actividades_1S2024/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-53-52.png)
 
 Descripción de los campos (de izquierda a derecha)
 * Minutos (0-59)
@@ -101,15 +101,15 @@ Una vez editado el Cron Job presionar `Ctrl+o` para guardar y luego `Ctrl+x` par
 
 Con el comando `crontab -l` se listan los Cron Job en ejecución
 
-![Cron Job Actividad2](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-54-45.png)
+![Cron Job Actividad2](https://github.com/kmsu/so1_actividades_1S2024/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-54-45.png)
 
 Con el comando `crontab -r` se eliminan los Cron Job actuales
 
-![Eliminacion del Cron Job Actividad2](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-55-46.png)
+![Eliminacion del Cron Job Actividad2](https://github.com/kmsu/so1_actividades_1S2024/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-55-46.png)
 
 Anexo: Archivo `saludo.log` desde `/tmp` con 4 ejecuciones del script
 
-![saludo.log](https://github.com/kmsu/so1_actividades_200915348/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-50-23.png)
+![saludo.log](https://github.com/kmsu/so1_actividades_1S2024/blob/main/Actividad2/Imagenes/Captura%20desde%202024-02-04%2021-50-23.png)
 
 
 
