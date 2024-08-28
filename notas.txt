@@ -1,2 +1,2 @@
 Nota: para ejecutar los archivos bash basta con abrir un terminal con ruta donde estan los archivos 
-y escribir bash nombreScript.sh
+y escribir bash nombreScript.sh prueba
